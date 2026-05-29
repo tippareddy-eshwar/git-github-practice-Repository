@@ -6,4 +6,9 @@ public class ArthemeticTest
    {
 	   return x+y;
    }
+   
+   public int doSubtraction(int x,int y)
+   {
+	   return x-y;
+   }
 }
