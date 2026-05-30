@@ -9,7 +9,10 @@ public class ArthemeticTest
    
    public int doSubtraction(int x,int y)
    {
+
 	   //performing deduction operation
+	   //performing the subtraction operation
+
 	   return x-y;
    }
 }
