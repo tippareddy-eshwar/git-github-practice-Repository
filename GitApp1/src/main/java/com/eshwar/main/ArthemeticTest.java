@@ -3,6 +3,7 @@ public class ArthemeticTest
 {
    public int doAddition(int x,int y)
    {
+	   //returning addition of two numbers
 	   return x+y;
    }
    
