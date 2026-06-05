@@ -5,4 +5,9 @@ public class CardPayment
   {
 	  return amount+" Ruppes Payment Done Sucessfully From the Card No : "+cardNo+" Using CreditCard";
   }
+  
+  public String doPaymentUsingDebitCard(Long cardNo,Double amount)
+  {
+	  return amount+" Ruppes Payment Done Sucessfully From the Card No : "+cardNo+" Using DebitCard";
+  }
 }
