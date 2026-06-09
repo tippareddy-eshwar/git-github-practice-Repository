@@ -14,4 +14,10 @@ public class UPIPayment
 	   return amount+" Rupees Payment is Done Sucessfully From MobileNo "+mobileNo+" Using GooglePay";
    }
    
+   public String makingPaymentUsingPaytm(Long mobileNo,Double amount)
+   {
+	   System.out.println("UPIPayment Class  makingPaymentUsingPaytm(---,---) method is executed...");
+	   return amount+" Rupees Payment is Done Sucessfully From MobileNo "+mobileNo+" Using Paytm";
+   }
+   
 }
